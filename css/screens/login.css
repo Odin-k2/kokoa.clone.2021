@@ -45,7 +45,7 @@
   padding: 15px 0px;
   font-size: 20px;
   margin-bottom: 20px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid var(--gray);
 
   transition: border-color 0.3s ease-in-out;
 }
