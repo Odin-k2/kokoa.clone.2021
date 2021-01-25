@@ -16,9 +16,9 @@
   margin-top: 18px;
 }
 
-.icon-row-more {
+.icon-row-bottom {
   display: flex;
   justify-content: space-between;
   margin: 30px 0px;
-  padding-right: 250px;
+  padding-right: 115px;
 }
