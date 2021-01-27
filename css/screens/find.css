@@ -95,3 +95,23 @@
   padding-top: 10px;
   border-top: var(--main-border);
 }
+
+@keyframes hearthBeat {
+  0% {
+    color: white;
+    transform: none;
+  }
+  50% {
+    color: tomato;
+    transform: scale(1.5);
+  }
+  100% {
+    color: white;
+    transform: none;
+  }
+}
+
+.open-post__heart-count:hover i {
+  will-change: transform;
+  animation: hearthBeat 2s linear infinite;
+}
